@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      https://survey-form.freecodecamp.rocks</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">FreeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form method="post" action='https://survey-form.freecodecamp.rocks' id="survey-form">
+<fieldset>
+  <label for="name">Name <input type="text" id="name-label" required placeholder="enter your name"/></label>
+  <label for="email">Email <input type="text" id="email-label" required placeholder="enter your email"/></label>
+  <label for="age">Age <input type="number" id="number-label" min="13" max="100" placeholder="age"/></label>
+  <label for="current role">Which option best describes your current role?
+    <select id="current role" name="current role">
+      <option value="">(Select one)</option>
+  </label>
+</fieldset>
+    </form>
+  </body>
+  </html>
